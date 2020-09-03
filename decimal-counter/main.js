@@ -10,6 +10,6 @@ function decimalPlaceCounter(stringNumber) {
   return count;
 }
 
-console.log(decimalPlaceCounter("127.245"))
-console.log(decimalPlaceCounter("145"));
-console.log(decimalPlaceCounter("23.00"));
+console.log("127.245:", decimalPlaceCounter("127.245"));
+console.log("145:", decimalPlaceCounter("145"));
+console.log("23.00:", decimalPlaceCounter("23.00"));
