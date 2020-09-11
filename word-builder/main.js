@@ -1,10 +1,9 @@
-var wordArr = [];
-var tempStr = "";
-
 function wordBuilder(wordToSpell) {
-  for (var i = 0; (i = wordToSpell.length); i++) {
-    tempStr+= tempStr[i]
-    wordArr.push(tempStr);
+  var tempStr = "";
+  var wordArr = [];
+  for (var i = 0; i < wordToSpell.length; i++) {
+    tempStr += wordToSpell[i]
+    wordArr.push(tempStr)
   }
   return wordArr;
 }
