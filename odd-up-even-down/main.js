@@ -1,13 +1,13 @@
 function oddUpEvenDown(array) {
-  var resault = [];
+  var result = [];
   for (var i = 0; i < array.length; i++) {
     if (array[i] % 2 === 0) {
-      resault.push(array[i] - 1);
+      result.push(array[i] - 1);
     } else if (array[i] % 2 !== 0) {
-      resault.push(array[i] + 1);
+      result.push(array[i] + 1);
     }
   }
-  return resault;
+  return result;
 }
 
 console.log("oddUpEvenDown([1, 2, 3, 4, 5])", oddUpEvenDown([1, 2, 3, 4, 5]));
