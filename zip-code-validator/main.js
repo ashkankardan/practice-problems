@@ -13,4 +13,4 @@ function zipCodeValidator(zipToValidate) {
 
 console.log(`zipCodeValidator("21594")`, zipCodeValidator("21594"));
 console.log(`zipCodeValidator("3Eds32")`, zipCodeValidator("3Eds32"));
-console.log(`zipCodeValidator("3Eds32")`, zipCodeValidator("3Eds32"));
+console.log(`zipCodeValidator("9123465")`, zipCodeValidator("9123465"));
