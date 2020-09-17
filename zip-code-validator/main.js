@@ -1,7 +1,7 @@
 function zipCodeValidator(zipToValidate) {
   if (zipToValidate.length === 5) {
     for (var i = 0; i < zipToValidate.length; i++) {
-      if (typeof parseInt(zipToValidate[i]) !== "number") {
+      if (isNaN(zipToValidate[i])) {
         return false;
       }
     }
