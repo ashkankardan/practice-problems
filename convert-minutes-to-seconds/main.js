@@ -5,7 +5,7 @@
 // output ex: 934
 
 // take the first 2 index of string
-// times 60 to get the value in seconds
+// multiply 60 to get the value in seconds
 // take the last 2 index of the string
 // add it to the value of the 2nd step
 // return the result
