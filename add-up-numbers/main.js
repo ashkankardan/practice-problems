@@ -10,14 +10,25 @@
 // evrytime add the current vallu of the loop to total value in variable
 // return the total value
 
-function addUpNumbers(num) {
-  let sum = 0
+// function addUpNumbers(num) {
+//   let sum = 0
+//   for(let i = 1; i <= num; i++) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+
+
+
+const addUp = (num) => {
+  let sum = 0;
   for(let i = 1; i <= num; i++) {
     sum += i;
   }
   return sum;
 }
 
-console.log(`addUpNumbers(4)`, addUpNumbers(4));
-console.log(`addUpNumbers(13)`, addUpNumbers(13));
-console.log(`addUpNumbers(600)`, addUpNumbers(600));
+
+console.log(`addUp(4)`, addUp(4));
+console.log(`addUp(13)`, addUp(13));
+console.log(`addUp(600)`, addUp(600));
